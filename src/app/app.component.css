@@ -1,0 +1,12 @@
+.nav {
+    display: inline-flex;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,1 +1,5 @@
-<p>products works!</p>
+<p>Take a look to our products!!</p>
+<div>
+    <li *ngFor="let product of products">{{product.name}} ${{product.price}}</li>
+</div>
+<p>If you want to buy something, </p> <a routerLink="/contactus">Contact Us</a>
